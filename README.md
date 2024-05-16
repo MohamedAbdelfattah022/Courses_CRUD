@@ -37,22 +37,25 @@
 
 <br>
 
-## About
+## Project Description
 
-Describe your project
+This project is a Course Management System built using Node.js. It uses an Express.js server and a MongoDB database to manage course data. The system allows users to perform CRUD (Create, Read, Update, Delete) operations on course data.
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- **Get All Courses**: Users can retrieve a list of all courses stored in the database.
+- **Get Course by ID**: Users can retrieve a specific course by providing its unique identifier.
+- **Add Course**: Users can add a new course to the database by providing details such as course name, description, etc.
+- **Update Course**: Users can update an existing course by providing its ID along with the updated details.
+- **Delete Course**: Users can delete a course from the database by providing its ID.
 
 ## Technologies
 
-The following tools were used in this project:
-
-- [Node.js](https://nodejs.org/en/)
-- [MongoDB](https://www.mongodb.com/)
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Express-validator (for input validation)
 
 ## Requirements
 
